@@ -1,7 +1,6 @@
 /**
  * combile object into array
  */
-
 const meals = [
     { id: 1, description: "Breakfast", calories: 420 },
     { id: 2, description: "Lunch", calories: 150 }
