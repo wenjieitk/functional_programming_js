@@ -6,7 +6,7 @@ const greet = (greeting) => { //run this closure 1 time
 
 const friends = ['sing','ling','nicole','beatrice','waner','peiyu']
 
-const friendGreetings = friends.map(greet('good morning!'))
+const friendGreetings = friends.map(greet('good morning!')) //greet('good morning!')(['sing','ling','nicole','beatrice','waner','peiyu'])
 
 console.log(friendGreetings)
 
@@ -22,11 +22,11 @@ const studentGrades = [
 ]
   
 const feedbacks = {
-    a: 'Excellent Job',
-    b: 'Nice Job',
-    c: 'Well done',
-    d: 'What happened',
-    f: 'Not good',
+    A: 'Excellent Job',
+    B: 'Nice Job',
+    C: 'Well done',
+    D: 'What happened',
+    F: 'Not good',
 }
   
 /*
