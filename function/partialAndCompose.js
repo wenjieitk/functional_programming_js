@@ -28,7 +28,7 @@ const sentence2 = 'PechaKucha is a presentation style in which 20 slides are sho
 const numbersInString = R.pipe(
     R.split(''),
     R.map(parseInt),
-    R.filter(Number.isInteger),
+    R.filter(Number.isInteger), // (x) => x > 0
     R.length
 )
 console.log(numbersInString(sentence2))
