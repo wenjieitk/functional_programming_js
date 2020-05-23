@@ -92,6 +92,9 @@ const grades = [60,55,80,90,99,92,75,72]
 //sum up the total
 const sum = (acc, grade) => acc + grade
 const total = grades.reduce(sum)
+// grades.reduce((acc, grade) => {
+//     return acc + grade
+// })
 console.log(total)
 
 //grouping grades
