@@ -16,7 +16,7 @@ const updatedCities = cities.map(updateTemperature(KtoC))
 console.log(updatedCities[0])
 
 
-//Ramda way
+//Ramda Curry
 const updateTemperature2 = R.curry((convertFn, city) => {
         const temp = Math.round(convertFn(city.temp))
         return R.merge(city, {temp}) //replace 1st object element with 2nd object element
@@ -28,3 +28,7 @@ console.log(updatedCities2[0])
 const city = cities[0]
 const updatedCity = updateTemperature2(KtoF, city)
 console.log(updatedCity)
+
+//Ramda map
+const updatedCities3 = R.map(updateTemperature2(KtoC), cities)
+console.log(updatedCities3[0])
