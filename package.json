@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/wenjieitk/functional_programming_js#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "text-table": "^0.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
